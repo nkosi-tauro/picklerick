@@ -71,6 +71,9 @@ $ git clone https://github.com/nkosi-tauro/picklerick
 # Access
 $ cd picklerick
 
+#Tests
+$ python manage.py test rickmorty
+
 # Docker compose build
 $ docker-compose build
 
