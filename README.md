@@ -24,16 +24,6 @@
 
 <hr> -->
 
-<p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/nkosi-tauro" target="_blank">Author</a>
-</p>
-
 <br>
 
 ## :dart: About ##
@@ -42,10 +32,10 @@ Pickle Rick is a Django Application that makes use of [Rick And Morty API](https
 
 ## 🏡 Architectural Decisions ##
 
-**No Separate Framework Used (e.g Vue)**
+**No Separate Framework Used (e.g Vue)**  
 I decided to make use of just Django as it provided me with the required feature sets needed out of the box.
 
-**Usage of Bootstrap**
+**Usage of Bootstrap**  
 Instead of creating my own custom styles, I made use of the Bootstrap library, this was to lessen the time spent on the UI.
 
 
