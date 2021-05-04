@@ -19,6 +19,29 @@
         </div>
     </nav>
 
+    <div class="container px-4">
+        <div class="row gy-4">
+            {% for character in characters %}
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src={{character.image}} class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ character.name }}</h5>
+                        <ul>
+                            <li>Origin : {{ character.origin.name }}</li>
+                            <li>Species : {{ character.species }}</li>
+                            <li>Gender : {{ character.gender }}</li>
+                            <li>Status : {{ character.status }}</li>
+
+                        </ul>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
 
 
 </body>
