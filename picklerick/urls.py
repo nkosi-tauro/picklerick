@@ -19,5 +19,5 @@ from rickmorty.views import GetInfo
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', GetInfo.as_view(template_name='info.html'), name='Info View')
+    path('', GetInfo.as_view(template_name='index.html'), name='Info View')
 ]
